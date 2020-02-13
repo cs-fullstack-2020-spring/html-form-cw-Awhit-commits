@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>User Registration Form</h1>
+    <p><strong>User Information</strong></p>
+    <form action="" method="post">
+        <label for="first_name">First Name: <input type="text" name="first_name" placeholder="First Name" id="First" required></label>
+        <label for="last_name">Last Name: <input type="text" name="last_name" placeholder="Last Name" id="Last" required></label>
+        <label class="email" for="email">Email: <input class="email" type="email" name="email" placeholder="Email" id="email" required></label>
+        <label class="password" for="password">Password: <input class="password" type="password" name="password" placeholder="Password" id="password" required></label>
+
+
+        <div>
+            <input type="radio" name="gender" class="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" class="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" class="gender" id="other" value="other">
+            <label for="other">Prefer not to say</label>
+        </div>
+
+        <div class="birthday">
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" id="birthday">
+        </div>
+        <label class="agree" for="agree"><input class="agree" type="checkbox" name="agree" id="agree">I agree to the terms and conditions</label>
+
+        <input type="submit" value="Submit Registration" id="submit">
+
+    </form>
+</body>
+
+</html> 

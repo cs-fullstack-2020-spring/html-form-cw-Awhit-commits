@@ -1,0 +1,44 @@
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+#first_name{
+    grid-column: 1;
+    width: 25%;
+
+}
+#last_name{
+    grid-column: 2;
+}
+
+.email{
+    grid-column: 1;
+    grid-row: 3;
+    width: 50%;
+
+}
+
+.password{
+    grid-column: 2;
+    grid-row: 3;
+}
+div{
+    grid-row:4 ;
+}
+
+
+
+
+
+.birthday{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+.agree{
+    grid-row: 5;
+}
+#submit{
+    grid-row: 6;
+}
